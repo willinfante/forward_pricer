@@ -42,7 +42,6 @@ def main(z):
         # Get number of decimal places
         d = decimal.Decimal(x[0])
         num_decimals = d.as_tuple().exponent * -1
-        print(num_decimals*-1)
 
         # Convert 2nd number (offer) to full number
         seclen =  len(x[1])  
